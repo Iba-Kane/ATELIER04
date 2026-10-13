@@ -14,4 +14,9 @@ class Compte {
   }
 }
 
+void main() {
+  var compte = Compte('FR123456');
+  compte.depot(150.0);
+  print(compte.solde); // 150.00 $
+}
 
