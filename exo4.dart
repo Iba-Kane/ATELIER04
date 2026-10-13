@@ -3,6 +3,6 @@ class Media {
   Media(this.titre);
 
   void afficherType() {
-    print('Ceci est un média.');
+    print('Ceci est un média générique.');
   }
 }
